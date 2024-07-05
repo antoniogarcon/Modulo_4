@@ -13,4 +13,5 @@ services:
       # Opens port 3306 on the container
       - '3306'
     volumes:
+    #Change this patch with your local settings
       - /F:/Estudos/RocketSeat/Python/Modulo_4/mysql:/var/lib/mysql
